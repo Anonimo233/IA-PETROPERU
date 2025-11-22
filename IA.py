@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LinearRegression
 
 # 1. Configuración de la página
 st.title('🤖 Mi Primera IA: Predicción de Salarios')
