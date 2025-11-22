@@ -4,7 +4,6 @@ import numpy as np
 import random
 import datetime # Para simular datos a lo largo del tiempo
 import time # Para simular el tiempo real
-import matplotlib.pyplot as plt
 import seaborn as sns # Importado pero no usado, si no lo necesitas, puedes quitarlo
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
