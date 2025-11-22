@@ -18,8 +18,7 @@ st.markdown(
     de Petroperú. Muestra métricas clave, tendencias y detección de anomalías (simuladas),
     además de conceptualizar cómo la **Inteligencia Artificial** potenciaría un sistema real.
 
-    **Disclaimer:** Todos los datos son generados aleatoriamente y no representan información real de Petroperú.
-    """
+
 )
 st.write("---")
 
