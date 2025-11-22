@@ -19,23 +19,4 @@ df = pd.DataFrame(data)
 X = df[['Años_Experiencia']]
 y = df['Salario_Anual']
 
-model = LinearRegression()
-model.fit(X, y) # Aquí ocurre la "magia" del aprendizaje
 
-# 4. Interfaz de Usuario en Streamlit
-st.sidebar.header("Parámetros")
-input_experiencia = st.sidebar.slider('Selecciona años de experiencia:', 0, 15, 5)
-
-# 5. Hacer la predicción
-# El modelo recibe el valor del slider y calcula el resultado
-prediccion = model.predict([[input_experiencia]])
-
-# 6. Mostrar resultados
-st.subheader('Resultados:')
-st.metric(label="Salario Estimado", value=f"${prediccion[0]:,.2f} USD")
-
-# Bonus: Mostrar gráfico
-st.subheader('Visualización del Modelo')
-chart_data = df.copy()
-# Añadimos la predicción actual al gráfico para ver dónde cae
-st.line_chart(chart_data.set_index('Años_Experiencia'))
