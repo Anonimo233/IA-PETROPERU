@@ -187,4 +187,4 @@ st.markdown(
 )
 
 st.write("---")
-st.markdown("Desarrollado con 🚀 en Python y Streamlit para fines demostrativos y simulados.")
+st.markdown("Desarrollado con 🚀 en Python y Streamlit para fines demostrativos y simulados. Hecho por Andre Vega, Alessandro Tineo y Justin Lavi")
