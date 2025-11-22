@@ -2,8 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import random
-import datetime # Para simular datos a lo largo del tiempo
-import time # Para simular el tiempo real
+import datetime
+import time
+import matplotlib.pyplot as plt  # <--- ESTA ES LA LÍNEA QUE FALTA
+import seaborn as sns
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(page_title="Monitoreo Financiero Petroperú (Simulado)", page_icon="📈", layout="wide")
